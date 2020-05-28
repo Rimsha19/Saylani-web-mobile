@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css?family=Acme|Lobster|Patua+One|Rubik|Sniglet");
+
+:root{
+    --bggradient: linear-gradient(to bottom, #dd2476, #ff512f);
+    --Sniglet-font: "Sniglet", cursive;
+  --Rubik: "Rubik", cursive;
+  --Patua: "Patua One", cursive;
+  --Lobster: "lobster", cursive;
+  --light-black: #2e2c2caf;
+  --light-gray: rgba(255, 255, 255, 0.877);
+}
+
+
+header{
+    background: var(--bggradient);
+    
+}
+header a {
+    color: whitesmoke;
+    font-family: var(--Sniglet-font);
+    font-size: 0.9em;
+
+}
+header a:hover{
+    color: rgba(0, 0, 0, 0.815);
+}
+header .nav-item{
+    padding: 0.9em;
+    
+}
+header .nav-item:last-child {
+    padding-right: 10.5em;
+  }
+  header .navbar-brand{
+      padding-left: 8em;
+  }
+  header .row .col-md-7{
+      padding-top: 200px;
+      padding-bottom: 100px;
+      font-family: var(--Rubik);
+  }
+  header .container .col-md-7 h6{
+      letter-spacing: 4px;
+      padding: 10px;
+  }
+  header .container .col-md-7 h1{
+
+    font-weight: bold;
+    padding: 0.1em 0em;
+    font-size: 3em;
+  }
+  header .container .col-md-7 p {
+    padding: 1vmin 5vmin;
+  }
+  .main-btn{
+      border-radius: 30px;
+      font-weight: bold;
+  }
+  footer{
+    background: rgba(0, 0, 0, 0.815);
+    padding: 70px 80px;
+
+  }
+  footer h4{
+      color: white;
+      
+  }
+  .tittle{
+      color: #ff512f;
+  }
+  footer .column i{
+      padding-right: 15px;
+      color: #dd2476;
+  }
+
+  footer input {
+    border: none !important;
+    padding-right: 100px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+  }
+  
+  footer input::placeholder {
+    color: white !important;
+  }
+  
+  footer .input-group .input-group-text {
+    background: var(--bggradient);
+    border: none;
+  }
+  .sec-1 {
+      padding: 10em 0em;
+  }
+  .sec-1 .pictures img{
+    height: 100%!important;
+    width: 85%;
+    border-radius: 0.2em;
+  }
+  .panel{
+      background-color: white;
+      border-radius: 3px;
+      position: absolute;
+      left: -8em;
+      top: 3em;
+      font-family: var(--Rubik);
+      box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+      padding: 50px;
+      text-align: left;
+  }
+  .panel h1{
+      font-weight: bold;
+      font-size: 2em;
+      padding: 0.4em 0em;
+  }
+  .panel p{
+      color: rgba(0, 0, 0, 0.5);
+      font-size: 1em;
+  }
+  .sec-3{
+      background: var(--bggradient);
+    padding-bottom: 50px;
+  }
+  .sec-3 .col-md-12 h1{
+      color: whitesmoke;
+      padding: 2em 0 0.5em 0;
+  }
+  .sec-3 .col-md-12 p{
+    padding: 0 4em;
+    padding-bottom: 2em;
+    color: var(--light-gray);
+  }
+  .desktop{
+      background:white;
+      display:inline-block;
+      border-radius: 3em;
+      padding: 20px 50px;
+
+  }
+  .mobile{
+    background:white;
+    display:inline-block;
+    border-radius: 3em;
+    padding: 20px 50px;
+
+  }
+.over-lay{
+    background:url("assets/thumb-1920-97039.jpg");
+    height: 50vh;
+    padding-top: 150px;
+}
+.content h1{
+    font-family: var(--Patua);
+  font-size: 6vmin;
+  color: whitesmoke;
+}
+.content p{
+    font-family: var(--Rubik);
+  font-size: 2vmin;
+  color: #e5e5e5;
+}
+.react{
+    background-color: white;
+    position: relative;;
+    top:-60px;
+    border-radius: 0.5em;
+    box-shadow: 1px 2px 50px 0px rgba(255, 0, 0, 0.349);
+    text-align: center;
+    padding: 25px;
+    
+}
+.react h1{
+    color: tomato;
+    font-size: 4rem;
+}
+.react p{
+    font-family: var(--Patua);
+}
+.group{
+    padding: 10vmin 4vmin;
+}
+ .card{
+    width: 18em;
+}
+.border-radius {
+    border-radius: 100px;
+    /* width: 80%; */
+    height: 100px;
+   
+  }
+.card-text {
+    padding: 0.5em;
+    color: gray;
+  }
+ .card-title{
+      font-weight: bold;
+  }
+.col-md-7 button{  
+ padding: 8px;
+ float: right;
+}
+.excess{
+  background-color: rgb(240,241,243);
+}
+.col-md-5 h4{
+  font-weight:bold ;
+}
+.col-md-5 p{
+font-size: 18px;
+}
+
+.col-md-3 .card{
+  height: 820px!important;
+}
+
+img{
+  height: 450px;
+}
+.order input{
+padding: -5px;
+}
